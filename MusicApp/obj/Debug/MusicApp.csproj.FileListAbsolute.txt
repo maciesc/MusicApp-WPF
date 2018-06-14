@@ -1,0 +1,160 @@
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\MusicApp.exe.config
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\MusicApp.exe
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\MusicApp.pdb
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.csprojResolveAssemblyReference.cache
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\MainWindow.g.cs
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\App.g.cs
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp_MarkupCompile.cache
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp_MarkupCompile.lref
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\MainWindow.baml
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.g.resources
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.Properties.Resources.resources
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.GenerateResource.Cache
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.CoreCompileInputs.cache
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.exe
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.pdb
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Michal\Desktop\MusicApp\MusicApp\obj\Debug\App.baml
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\taglib-sharp.dll
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\Dragablz.dll
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\Dragablz.pdb
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\Dragablz.xml
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Michal\Desktop\MusicApp\MusicApp\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\MusicApp.exe.config
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\MusicApp.exe
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\MusicApp.pdb
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\MusicApp.exe
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\MusicApp.pdb
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\Dragablz.dll
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\taglib-sharp.dll
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\Dragablz.pdb
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\Dragablz.xml
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\MusicApp.csprojResolveAssemblyReference.cache
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\MainWindow.g.cs
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\App.g.cs
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\MusicApp_MarkupCompile.cache
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\MusicApp_MarkupCompile.lref
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\App.baml
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\MainWindow.baml
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\MusicApp.g.resources
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\MusicApp.Properties.Resources.resources
+C:\Users\Kopasovska\Downloads\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.GenerateResource.Cache
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\MusicApp.exe.config
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.exe
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.pdb
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\MusicApp.exe
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\MusicApp.pdb
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\Dragablz.dll
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\taglib-sharp.dll
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\Dragablz.pdb
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\Dragablz.xml
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.csprojResolveAssemblyReference.cache
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\MainWindow.g.cs
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\App.g.cs
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp_MarkupCompile.cache
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp_MarkupCompile.lref
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\App.baml
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\MainWindow.baml
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.g.resources
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.Properties.Resources.resources
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.GenerateResource.Cache
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\MusicApp.exe.config
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\MusicApp.exe
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\MusicApp.pdb
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\Dragablz.dll
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\taglib-sharp.dll
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\Dragablz.pdb
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\Dragablz.xml
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\MusicApp.csprojResolveAssemblyReference.cache
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\MainWindow.g.cs
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\App.g.cs
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\MusicApp_MarkupCompile.cache
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\MusicApp_MarkupCompile.lref
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\App.baml
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\MainWindow.baml
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\MusicApp.g.resources
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\MusicApp.Properties.Resources.resources
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.GenerateResource.Cache
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.CoreCompileInputs.cache
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\MusicApp.exe
+C:\Users\Kopasovska\Documents\studia\sem 5\ZTP\MusicApp\MusicApp\obj\Debug\MusicApp.pdb
+C:\Users\Kopasovska\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.CoreCompileInputs.cache
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\MusicApp.exe.config
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\MusicApp.exe
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\MusicApp.pdb
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\Dragablz.dll
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\taglib-sharp.dll
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\Dragablz.pdb
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\Dragablz.xml
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.csprojResolveAssemblyReference.cache
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MainWindow.g.cs
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\App.g.cs
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp_MarkupCompile.cache
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp_MarkupCompile.lref
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\App.baml
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MainWindow.baml
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.g.resources
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.Properties.Resources.resources
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.GenerateResource.cache
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.CoreCompileInputs.cache
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.csproj.CopyComplete
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.exe
+C:\Users\Maciej\Desktop\MusicApp\MusicApp\obj\Debug\MusicApp.pdb

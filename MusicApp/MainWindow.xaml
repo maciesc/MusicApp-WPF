@@ -1,0 +1,389 @@
+﻿<Window
+    x:Class="MusicApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+    xmlns:local="clr-namespace:MusicApp"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:songs="clr-namespace:MusicApp.Song_Builder"
+    Name="window"
+    Title="Music app"
+    Width="800"
+    Height="600"
+    MinWidth="400"
+    MinHeight="300"
+    Background="{DynamicResource MaterialDesignPaper}"
+    FontFamily="{DynamicResource MaterialDesignFont}"
+    TextElement.FontSize="13"
+    TextElement.FontWeight="Regular"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    TextOptions.TextFormattingMode="Ideal"
+    TextOptions.TextRenderingMode="Auto"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+
+    <Window.DataContext>
+        <local:MainWindowViewModel />
+    </Window.DataContext>
+
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Closing">
+            <i:InvokeCommandAction Command="{Binding CloseWindowCommand}" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+    </Window.Resources>
+
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="420" />
+            <RowDefinition Height="180" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <StackPanel
+                Grid.Row="0"
+                Margin="0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Orientation="Vertical"
+                Visibility="{Binding IsFilesLoaded, Converter={StaticResource BooleanToVisibilityConverter}}">
+                <StackPanel.Resources>
+                    <Style
+                        x:Key="textBlockStyle"
+                        BasedOn="{StaticResource {x:Type TextBlock}}"
+                        TargetType="TextBlock">
+                        <Setter Property="Margin" Value="0,5,0,5" />
+                        <Setter Property="VerticalAlignment" Value="Center" />
+                        <Setter Property="FontSize" Value="14" />
+                        <Setter Property="FontWeight" Value="SemiBold" />
+                    </Style>
+                </StackPanel.Resources>
+
+                <StackPanel Orientation="Horizontal">
+
+                    <TextBlock Style="{StaticResource textBlockStyle}" Text="{Binding Player.Instance.CurrentSong.Title}" />
+                    <TextBlock Text="  "/>
+                    <TextBlock Style="{StaticResource textBlockStyle}" Text="{Binding Player.Instance.CurrentSong.Artist}" />
+                    <TextBlock Text="  "/>
+                    <TextBlock Style="{StaticResource textBlockStyle}" Text="{Binding Player.CurrentSong.Genre}" />
+                    <TextBlock Text="  "/>
+                    <TextBlock Style="{StaticResource textBlockStyle}" Text="{Binding Player.Instance.CurrentSong.Year}" />
+                </StackPanel>
+
+            </StackPanel>
+
+            <Grid Grid.Row="1" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="200" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Button
+                    IsEnabled="True"
+                    
+                    VerticalAlignment="Top"
+                    Grid.Column="2"
+                    Grid.Row="1"
+                    Width="100"
+                    Command="{Binding LoadFilesCommand}"
+                    Content="Load files" />
+
+                <Button
+                    IsEnabled="True"
+                    VerticalAlignment="Center"
+                    Grid.Column="2"
+                    Grid.Row="1"
+                    Width="100"
+                    Click="printToPdf"
+                    Content="Print to PDF" />
+
+                <StackPanel
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    IsEnabled="{Binding IsFilesLoaded}"
+                    Orientation="Vertical">
+                    <RadioButton Content="Random" IsChecked="{Binding PlayRandom}" />
+                    <RadioButton Content="Normal" IsChecked="{Binding PlayNormal}" />
+                    <RadioButton Content="Reversed" IsChecked="{Binding PlayReversed}" />
+                </StackPanel>
+
+                <StackPanel
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    IsEnabled="{Binding IsFilesLoaded}"
+                    Orientation="Horizontal">
+                    <StackPanel.Resources>
+                        <Style BasedOn="{StaticResource {x:Type TextBlock}}" TargetType="TextBlock">
+                            <Style.Triggers>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter Property="Foreground" Value="LightGray" />
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="True">
+                                    <Setter Property="Foreground" Value="Gray" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </StackPanel.Resources>
+                   
+                    <Slider Name="timelineSlider" Margin="5"  Width="300" Maximum="{Binding Player.CurrentSongLength.TotalSeconds}" IsMoveToPointEnabled="true" ValueChanged="timelineSlider_ValueChanged"/>
+                    <TextBlock Name="songPositionTextBlock" Text="{Binding Player.CurrentSongPosition, StringFormat={}{0:mm':'ss}}" RenderTransformOrigin="-22.452,42.6" />
+                    <TextBlock Text=" / " />
+                    <TextBlock Text="{Binding Player.CurrentSongLength, StringFormat={}{0:mm':'ss}}" />
+                </StackPanel>
+
+                <Grid
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Margin="5,20,5,20"
+                    HorizontalAlignment="Center"
+                    IsEnabled="{Binding IsFilesLoaded}">
+                    <Grid.Resources>
+                        <Style BasedOn="{StaticResource {x:Type Button}}" TargetType="Button">
+                            <Setter Property="Margin" Value="5" />
+                            <Setter Property="Width" Value="45" />
+                            <Setter Property="Height" Value="50" />
+                        </Style>
+                    </Grid.Resources>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <StackPanel
+                        Grid.Row="0"
+                        HorizontalAlignment="Center"
+                        Orientation="Horizontal">
+                        <Button
+                            Width="65"
+                            Height="40"
+                            Command="{Binding PrevCommand}">
+                            <Button.Content>
+                                <!--<TextBlock Text="Prev"/>-->
+                                <materialDesign:PackIcon
+                                    Width="22"
+                                    Height="22"
+                                    Kind="SkipPrevious" />
+                            </Button.Content>
+                        </Button>
+
+                        <Button Width="90" Command="{Binding PlayPauseCommand}">
+                            <Button.Content>
+                                <!--<TextBlock Text="Play/Pause"/>-->
+                                <materialDesign:PackIcon
+                                    Width="30"
+                                    Height="30"
+                                    Kind="PlayPause" />
+                            </Button.Content>
+                        </Button>
+                        <Button Width="90" Command="{Binding StopCommand}">
+                            <Button.Content>
+                                <!--<TextBlock Text="Stop"/>-->
+                                <materialDesign:PackIcon
+                                    Width="30"
+                                    Height="30"
+                                    Kind="Stop" />
+                            </Button.Content>
+                        </Button>
+
+                        <Button
+                            Width="65"
+                            Height="40"
+                            Command="{Binding NextCommand}"
+                            IsEnabled="{Binding Player.playList.IsDone}">
+                            <Button.Content>
+                                <!--<TextBlock Text="Next"/>-->
+                                <materialDesign:PackIcon
+                                    Width="22"
+                                    Height="22"
+                                    Kind="SkipNext" />
+                            </Button.Content>
+                        </Button>
+
+
+                    </StackPanel>
+
+
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <dragablz:TabablzControl
+            Grid.Row="0"
+            Margin="10,0,9.6,10">
+            <TabItem Header="Playlist">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <ListBox Name="TrackList"
+                        Grid.Row="0"
+                        Margin="10,5"
+                        ItemsSource="{Binding Player.Songs}"
+                        SelectedItem="{Binding Player.CurrentSong}">
+
+                        <ListBox.ItemContainerStyle>
+                            <Style BasedOn="{StaticResource {x:Type ListBoxItem}}" TargetType="ListBoxItem">
+                                <Style.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="FontSize" Value="20" />
+                                    </Trigger>
+                                    <Trigger Property="IsSelected" Value="False">
+                                        <Setter Property="FontSize" Value="12" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ListBox.ItemContainerStyle>
+
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Vertical">
+                                    <TextBlock Text="{Binding FileName}" />
+                                    <StackPanel>
+                                        <TextBlock
+                                            Margin="10,0,0,0"
+                                            FontSize="11"
+                                            Text="{Binding}" />
+                                        <StackPanel.Style>
+                                            <Style TargetType="StackPanel">
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=ListBoxItem}, Path=IsSelected}" Value="True">
+                                                        <Setter Property="Visibility" Value="Visible" />
+                                                    </DataTrigger>
+                                                    <DataTrigger Binding="{Binding RelativeSource={RelativeSource AncestorType=ListBoxItem}, Path=IsSelected}" Value="False">
+                                                        <Setter Property="Visibility" Value="Collapsed" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </StackPanel.Style>
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="History">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <ScrollViewer
+                        Grid.Row="0"
+                        HorizontalScrollBarVisibility="Disabled"
+                        VerticalScrollBarVisibility="Auto">
+                        <ItemsControl
+                            Grid.Row="0"
+                            Margin="10,5"
+                            ItemsSource="{Binding Player.SongsHistory}">
+
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid HorizontalAlignment="Stretch">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+
+                                        <TextBlock
+                                            Grid.Column="0"
+                                            VerticalAlignment="Center"
+                                            Text="{Binding FileName}" />
+                                        <Button
+                                            Grid.Column="1"
+                                            Margin="3"
+                                            Padding="0"
+                                            Width="25"
+                                            HorizontalAlignment="Right"
+                                            VerticalAlignment="Center"
+                                            Command="{Binding ElementName=window, Path=DataContext.RemoveSongFromHistoryCommand}"
+                                            CommandParameter="{Binding}"
+                                            DockPanel.Dock="Right"
+                                            FontSize="10">
+                                            <Button.Content>
+                                                <!--<TextBlock Text="Remove"/>-->
+                                                <materialDesign:PackIcon
+                                                    Width="15"
+                                                    Height="15"
+                                                    Kind="Delete" />
+                                            </Button.Content>
+                                        </Button>
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+
+                    <Grid Grid.Row="1" Margin="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Button
+                            Grid.Column="0"
+                            Margin="0,3,3,0"
+                            Command="{Binding UndoHistoryCommand}">
+                            <Button.Content>
+                                <!--<TextBlock Text="Undo"/>-->
+                                <materialDesign:PackIcon
+                                    Width="15"
+                                    Height="15"
+                                    Kind="Undo" />
+                            </Button.Content>
+                        </Button>
+                        <Button
+                            Grid.Column="1"
+                            Margin="3,3,3,0"
+                            Command="{Binding RedoHistoryCommand}">
+                            <Button.Content>
+                                <!--<TextBlock Text="Redo"/>-->
+                                <materialDesign:PackIcon
+                                    Width="15"
+                                    Height="15"
+                                    Kind="Redo" />
+                            </Button.Content>
+                        </Button>
+                        <Button
+                            Grid.Column="3"
+                            Margin="3,3,0,0"
+                            Command="{Binding ClearHistoryCommand}">
+                            <Button.Content>
+                                <TextBlock Text="Clear" />
+                                <!--<materialDesign:PackIcon Kind="Delete" Width="15" Height="15"/>-->
+                            </Button.Content>
+                        </Button>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+        </dragablz:TabablzControl>
+    </Grid>
+</Window>
